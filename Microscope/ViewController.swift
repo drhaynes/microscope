@@ -17,7 +17,7 @@ class ViewController: NSViewController {
         super.viewDidLoad()
         captureSession = AVCaptureSession()
         captureSession.sessionPreset = AVCaptureSession.Preset.high
-        let lastVideoCaptureDevice = AVCaptureDevice.devices(for: .video).last!
+        let lastVideoCaptureDevice = AVCaptureDevice.devices(for: .video).first!
         let videoCaptureInput = (try! AVCaptureDeviceInput(device: lastVideoCaptureDevice))
         captureSession.addInput(videoCaptureInput)
         videoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
