@@ -1,5 +1,9 @@
 # microscope.app
+
 Dead simple macOS app for viewing a USB microscope. Aimed at children. No frills.
+
+
+![Microscope in use](./Docs/microscope.jpg)
 
 ## Instructions:
 
@@ -8,4 +12,4 @@ Dead simple macOS app for viewing a USB microscope. Aimed at children. No frills
 3. Make window fullscreen.
 4. Science!
 
-Note: Note the app uses the last available camera capture device.
+Note: Note the app uses the first available camera capture device.
